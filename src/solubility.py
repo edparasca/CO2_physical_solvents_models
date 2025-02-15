@@ -146,7 +146,7 @@ final_agg.columns = [
 ]
 
 final_agg = final_agg.reset_index() 
-final_agg_output_path = "../results/aggregated_predictions.csv"
+final_agg_output_path = "../results/aggregated_predictions_sol.csv"
 final_agg.to_csv(final_agg_output_path, index=False)
 
 print(f"Final aggregated predictions saved in: {final_agg_output_path}")
