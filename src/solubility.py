@@ -61,7 +61,7 @@ n_repeats = 3
 random_state = 42
 
 num_folds = n_splits*n_repeats
-ckpt_dir = Path("../checkpoints")
+ckpt_dir = Path("../checkpoints_sol")
 
 all_test_results = []
 fold_metrics = []
